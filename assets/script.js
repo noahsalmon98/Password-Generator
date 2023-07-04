@@ -50,6 +50,8 @@ function generatePassword() {
     return;
   }
 
+//Numbers in password
+
   let numbers = confirm("Would you like to include numbers in your password (yes/cancel)");
   if (numbers) {
     characterCandidates.push(...numberChars);
@@ -57,6 +59,8 @@ function generatePassword() {
   } else if (!numbers) {
     console.log("numbers not included");
   }
+
+  //Feedback for if there is no letter or numbers
 
   if (!lower && !upper && !numbers) {
     alert("You don't have any characters to use in your password!");
