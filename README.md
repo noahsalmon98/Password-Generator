@@ -30,7 +30,7 @@ https://github.com/noahsalmon98/Password-Generator
 
 ## Screenshots
 
-![Screenshot of portfolio 1](./assets/images/)
+![Screenshot of portfolio 1](./assets/images/password-generator-screenshot.png)
 
 
 ## Credits
