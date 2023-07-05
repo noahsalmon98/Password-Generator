@@ -61,6 +61,15 @@ function generatePassword() {
     console.log("numbers not included");
   }
 
+//Special Characters in password
+let special = confirm("Would you like to include special characters in your password (yes/cancel)");
+if (special) {
+  characterCandidates.push(...specialChar);
+  console.log(characterCandidates);
+} else if (!specialChar) {
+  console.log("Special characters not included");
+}
+
   //Feedback for if there is no letter or numbers
 
   if (!lower && !upper && !numbers) {
