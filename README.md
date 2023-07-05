@@ -34,4 +34,4 @@ https://github.com/noahsalmon98/Password-Generator
 
 
 ## Credits
-"Coming Soon" image is from Adobe Stock images
+Starter code from Columbia Bootcamp
